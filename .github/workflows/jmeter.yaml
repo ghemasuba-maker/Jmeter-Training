@@ -16,8 +16,8 @@ on:
         required: true
 
 env:
-  JMETER_VERSION: '5.5'
-  JMX_FILE: ${{ github.event.inputs.script || 'JmeterScripts/aDVBanking_Single_User.jmx' }}
+  JMETER_VERSION: '5.6.3'
+  JMX_FILE: ${{ github.event.inputs.script || 'JmeterScripts/Test.jmx' }}
 
 jobs:
   jmeter:
